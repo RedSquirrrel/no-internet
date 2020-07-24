@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="dino.png" type="image/png" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>No Internet</title>
+  </head>
+  <body>
+    <h1 class="title">NO INTERNET</h1>
+    <div class="checkbox-container">
+      <input type="checkbox" class="checkbox" id="checkbox" />
+      <label for="checkbox" class="label">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+      </label>
+    </div>
+
+    <div class="main-container">
+      <h2>Try:</h2>
+      <div class="container">
+        <ul>
+          <li>Checking the network cables, modem and router</li>
+          <li>Reconnecting to Wi-Fi</li>
+          <li>Running Windows Network Diagnostics</li>
+          <li>Jump: Space or Up Arrow ⬆️ Down: Down Arrow ⬇️</li>
+        </ul>
+      </div>
+    </div>
+
+    <canvas class="canvas" id="game"></canvas>
+
+    <script src="app.js"></script>
+  </body>
+</html>
